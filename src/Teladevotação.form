@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Teladevotação">
+  <grid id="27dc6" binding="JP" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="65bbb" binding="JP1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e7060" class="javax.swing.JLabel" binding="JL1">
+            <constraints/>
+            <properties>
+              <text value="***Eliminação BBB***"/>
+            </properties>
+          </component>
+          <grid id="ad990" class="javax.swing.JMenu" binding="JM2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Jogador"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3aa8c" class="javax.swing.JMenuItem" binding="J1">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="a8bd4" class="javax.swing.JTextField" binding="JF">
+        <constraints/>
+        <properties>
+          <text value="Apurar resultado"/>
+        </properties>
+      </component>
+      <component id="38be1" class="javax.swing.JButton" binding="B1">
+        <constraints/>
+        <properties>
+          <text value="Votar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
